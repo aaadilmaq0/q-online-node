@@ -1,0 +1,25 @@
+To run this node server follow these steps - 
+
+1) Install node
+2) Open terminal
+3) update node
+
+sudo npm i npm -g
+
+4) go to the project directory
+
+5) In the file config.js, write your mongoDB connection address/url. Save the file
+
+6) Run sudo npm i
+
+7) To get and save initial data (from the url in config.js ) in your mongoDB, run 
+
+node data.js
+
+and then press Control+C to stop executing the file.
+
+The initial data is saved in your mongoDb.
+
+8) Run npm start 
+
+9) Now you can send http requests to this server. Read out comments to check which function performs which operation.
